@@ -22,9 +22,15 @@ In this portion of the project, knowledge of JavaScript, Leaflet.js and GeoJSON 
 ![Tectonic Plate Data](Earthquake_Challenge/static/images/Tectonic_Data.png)
 
 ### Major Earthquake Data
-In this portion of the project, major earthquake data which was retrieved from the [M4.5+ Earthquakes](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson) was added to the map using the **d3.json()**. Additionally, the color and radius of each earthquake was set based on the magnitude of the earthquakes. Lastly, a popup marker displaying the magnitude and location of the earthquake was added to each earthquake using GeoJSON layer as illustrated in the figure below.
+In this portion of the project, major earthquake data which was retrieved from the [M4.5+ Earthquakes](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson) was added to the map using the **d3.json()**. Additionally, the color and radius of each earthquake was set based on the magnitude of the earthquakes. Lastly, a popup marker displaying the magnitude and location of the earthquake was added to each earthquake using GeoJSON layer as illustrated in the figures below.
+
+*Major Earthquake Data:*
 
 ![Major Earthquake Data](Earthquake_Challenge/static/images/Major_Earthquakes.png)
+
+*Popup Marker Displaying the Magnitude and Location of Earthquake:*
+
+![Popup Marker](Earthquake_Challenge/static/images/Popup_Marker.png)
 
 ### Additional Map
 Lastly, the plot was updated by adding another option of the Mapbox style, **dark-v10**, as a tile layer object as demonstrated in the figure below.
